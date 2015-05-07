@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>原型</title>
+
+    <!-- Bootstrap -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet"> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header class="jumbotron">
+      <div class="container"><h1>欢迎使用</h1></div>
+    </header>
+
+    <section class="container">
+
+      <div role="tabpanel">
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">待处理任务</a></li>
+          <li role="presentation"><a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">抄送给我的</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="tab-1">
+            <table class="table table-striped" style="margin: 15px 0;">
+              <tr>
+                <th>序号</th>
+                <th>标题</th>
+                <th>时间</th>
+                <th>发件人</th>
+                <th>操作</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td><a href="">关于乍得Ronier-Kome原油管道工程项目清洗设备工厂第三方FAT检验费用的涵</a></td>
+                <td>2015/05/01</td>
+                <td>某公司</td>
+                <td><input type="checkbox"></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><a href="">关于乍得Ronier-Kome原油管道工程项目清洗设备工厂第三方FAT检验费用的涵</a></td>
+                <td>2015/04/18</td>
+                <td>某公司</td>
+                <td><input type="checkbox"></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><a href="">关于乍得Ronier-Kome原油管道工程项目清洗设备工厂第三方FAT检验费用的涵</a></td>
+                <td>2015/04/29</td>
+                <td>某公司</td>
+                <td><input type="checkbox"></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td><a href="">关于乍得Ronier-Kome原油管道工程项目清洗设备工厂第三方FAT检验费用的涵</a></td>
+                <td>2015/04/30</td>
+                <td>某公司</td>
+                <td><input type="checkbox"></td>
+              </tr>
+            </table>
+            <div style="margin-top: 30px; text-align: right;">
+              <a class="btn btn-danger" href="#">删除</a>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="tab-2">
+            2
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
